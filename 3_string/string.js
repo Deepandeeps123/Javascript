@@ -30,7 +30,7 @@ console.log(str1);
 
 
 
-//! 2.tLowercase
+//! 2.toLowercase
 
 // It is used to convert the string into lowercase and it will return one new string
 
@@ -178,7 +178,7 @@ console.log(str10.slice(4,0));
 
 
 
-// ! substring()
+//! 10. substring()
 
 
 // it is used to extract the character or string from another string
@@ -187,7 +187,7 @@ console.log(str10.slice(4,0));
 
 
 
-// we can't give negative value.It will be converted to 0.
+// we can't give negative value.It will be converted to 0 index.
 
 let str11 = 'hello how are you'
 let sub = str11.substring(-4,4)
@@ -235,8 +235,73 @@ console.log(str11.substring(7,1));
 
 
 
+// ! Palindrome
+
+ let num='madam'
+ console.log(num.slice(0,));
+ 
 
 
+let str="hello"
+console.log(str.charAt(0));
+console.log(str.charAt(1));
+console.log(str.charAt(2));
+console.log(str.charAt(3));
+console.log(str.charAt(4));
+
+
+
+// let str222=""
+// for(let j=4;j>=0;j++);
+// {
+//     // console.log(str.charAt(i));
+//     str222=str222+str.charAt(j)
+    
+// }
+// console.log(str222);
+
+
+
+
+
+let n="racecar"
+let n1=""
+let a=n.length
+for(let i=a;i>=0;i--)
+{
+    n1=n1+n.charAt(i)
+}
+console.log(n1);
+
+
+
+
+
+
+
+
+
+
+// ! duplicate remove
+
+let m="madam"
+let m2=m.length
+let m1=""
+for(let i=0;i<m2;i++)
+{
+if(!m1.includes(m.charAt(i)))
+{
+    m1=m1+m.charAt(i)
+}
+}
+
+console.log(m1);
+
+
+
+
+let b=1010
+let b1=Binar
 
 
 
