@@ -53,18 +53,33 @@
 // console.log(str.includes('m'));
 
 
-let str="madam"
-let str1=""
-let length=str.length-1
+// let str="madam"
+// let str1=""
+// let length=str.length-1
 
-for (i=0;i>=0;i++)
-{
-    if(!str1.includes(str.charAt(i)))
-    {
-        str1=str1+str.charAt(i)
+// for (i=0;i>=0;i++)
+// {
+//     if(!str1.includes(str.charAt(i)))
+//     {
+//         str1=str1+str.charAt(i)
+//     }
+// }
+
+
+
+// console.log(str1);
+
+
+
+
+let a="madam"
+let b=""
+let c=a.length
+for(let i=0;i>=0;i++){
+    if(!b.includes(a.charAt(i))){
+        b=b+a.charAt(i)
     }
 }
-
-console.log(str1);
+console.log(b);
 
 

@@ -300,8 +300,8 @@ console.log(m1);
 
 
 
-let b=1010
-let b1=Binar
+// let b=1010
+// let b1=Binary     (10)
 
 
 

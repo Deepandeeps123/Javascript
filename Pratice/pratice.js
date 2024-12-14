@@ -297,6 +297,322 @@
 
 
 
+// ! Function
+
+
+// *Syntax
+
+// function sample()
+// {
+//     console.log("Sample");
+    
+// }
+// sample()
+
+
+
+
+// ! Function without parameters
+
+
+// function add()
+// {
+//     let a=10
+//     let b=20
+//     console.log(a+b)
+// }
+// add()
+
+
+// function add1()
+// {
+//     let a=10,b=20
+//     console.log(a+b);
+    
+// }
+// add1()
+
+
+// ! function with parameter
+
+
+// function add(a,b){
+//     console.log(a+b)
+
+// }
+// add(10,20)
+
+
+
+
+// return
+
+// function add (a,b){
+//     return a+b
+// }
+// (add(100,20));
+
+
+
+// function (a,b){
+
+// }
+// (10)
+
+
+// let a = function(a,b){
+//     console.log(a+b);
+    
+// }
+// a(10,20)
+
+
+// Arrow
+
+// function (a,b) =>{
+
+// }
+
+
+// let add = (a,b)=>{
+//     console.log(a+b);
+    
+// }
+// add(10,200)
+
+
+
+
+
+// ! Prime Number
+
+
+
+// function prime(n){
+//     let count=0
+//     for (let i=1;i<=n;i++){
+//         if (n%i==0){
+//             count=count+1
+//         }
+//     }
+// if (count==2){
+//     console.log("prime");
+    
+// }
+// else{
+//     console.log("not prime");
+    
+// }
+
+// }
+// prime(51)
+
+
+
+
+
+// let str="racecar"
+// let a=""
+// let length=str.length
+// for (let i=length;i>=0;i--){
+//     a=a+str.charAt(i)
+// }
+// console.log(a);
+
+
+// let a="racecar"
+// let b=""
+// let c=a.length
+// for (let i=c;i>=0;i--){
+//     b=b+a.charAt(i)
+// }
+// console.log(b);
+
+
+
+// function palindrome(n){
+//     let a=n
+//     let b=""
+//     let c=a.length
+//     for (let i=c;i>=0;i--){
+
+//         b=b+a.charAt(i)
+//     }
+//     console.log(b);
+    
+
+// }
+
+// palindrome("racecar")
+
+
+
+
+// function palindrome(n){
+//     let a=n
+//     let b=""
+//     let c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+        
+//     }
+//     return b
+
+
+// }
+// console.log(palindrome("racecar"));
+
+
+
+
+
+// function palindrome(n){
+//     let a=n
+//     let b=""
+//     let c=a.length
+//     for (let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+
+//     }
+//     return b
+// }
+// console.log(palindrome("racecar"));
+
+
+
+// function palindrome(n){
+//     let a=n
+//     let b=""
+//     let c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     if (a==b){
+//         console.log("palindrome");
+        
+//     }
+//     else{
+//         console.log("Not");
+        
+//     }
+// }
+// palindrome("racecar")
+
+
+
+
+// function palindrome(n){
+//     let a=n
+//     let b=""
+//     let c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     if(a==b){
+//         return "Palindrome"
+//     }
+//     else{
+//         return "Not"
+//     }
+
+// }
+// console.log(palindrome("racecar"));
+
+
+
+
+// let a="madam"
+// let b=""
+// let c=a.length
+// for (let i=0;i<c;i++){
+//     if(!b.includes(a.charAt(i))){
+//         b=b+a.charAt(i)
+//     }
+
+// }
+// console.log(b);
+
+
+
+
+
+
+
+
+// let a="madam"
+// let b=""
+// let c=a.length
+// for (let i=0;c>0;i++){
+//     if(!b.includes(a.charAt(i))){
+//         b=a.charAt(i)
+//     }
+// }
+
+// console.log(b);
+
+
+
+
+// let a=5
+// let count=0
+// for(let i=2;a>=i;i++){
+//     if (a%i==0){
+//         count=count+1
+//     }
+// if(count==2){
+//     console.log("Prime");
+    
+// }
+// }
+
+
+
+
+
+
+// let a="madam"
+// let b=""
+// let c=a.length
+// for(let i=c;i>=0;i--){
+//     b=b+a.charAt(i)
+// }
+// console.log(b);
+
+
+
+let a="madam"
+let b=""
+let c=a.length
+for(let i=0;i>=0;i++){
+    if(!b.includes(a.charAt(i))){
+        b=b+a.charAt(i)
+    }
+}
+console.log(b);
+
+
+
+
+
+let a1=5
+let count=0
+for(let i=2;a1>0;i++){
+    if(n%i==0){
+        count=count+1
+    }
+if(count==1){
+    console.log("Prime");
+    
+}
+}
+
+
+
+
+
+
+
+
 
 
 
