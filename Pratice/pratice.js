@@ -580,31 +580,381 @@
 
 
 
-let a="madam"
-let b=""
-let c=a.length
-for(let i=0;i>=0;i++){
-    if(!b.includes(a.charAt(i))){
-        b=b+a.charAt(i)
-    }
-}
-console.log(b);
+// let a="madam"
+// let b=""
+// let c=a.length
+// for(let i=0;i>=0;i++){
+//     if(!b.includes(a.charAt(i))){
+//         b=b+a.charAt(i)
+//     }
+// }
+// console.log(b);
 
 
 
 
 
-let a1=5
-let count=0
-for(let i=2;a1>0;i++){
-    if(n%i==0){
-        count=count+1
-    }
-if(count==1){
-    console.log("Prime");
+// let a1=5
+// let count=0
+// for(let i=2;a1>0;i++){
+//     if(n%i==0){
+//         count=count+1
+//     }
+// if(count==1){
+//     console.log("Prime");
     
-}
-}
+// }
+// }
+
+
+// let arr=[10,20.10,true,"hello",[1,2,3,"hi"]]
+// console.log(arr);
+
+
+// let arr=[]
+// console.log(arr);
+
+
+// console.log(arr.length);
+
+
+
+
+
+// !1.push
+
+// let arr=[1,2,3,4]
+// arr.push(5)
+// console.log(arr);
+
+// console.log(arr.push());
+
+
+
+// ! 2.pop
+// let arr=[1,2,3,4,5]
+// // arr.pop()
+// arr.pop(10)
+// console.log(arr);
+
+
+// console.log(arr.pop());
+
+
+
+// let  arr=[2,3,4,5]
+// // arr.unshift(1)
+// arr.unshift(1)
+// console.log(arr);
+
+
+
+// console.log(arr.unshift());
+
+
+
+
+// let arr1=[1,2,3,4,5]
+// arr1.shift(5)
+// console.log(arr1);
+
+
+// console.log(arr1.shift());
+
+
+
+
+// let arr=[1,2,3,4,5]
+// console.log(arr.includes(2));
+// console.log(arr.includes(19));
+// let check = arr.includes(1)
+// console.log(check);
+
+
+
+// let arr=[1,2,3,4,5]
+// console.log(arr.indexOf(3));
+// console.log(arr.indexOf());
+
+
+
+// let check=arr.indexOf(1)
+// console.log(check);
+
+
+
+// console.log("hello"+" hi");
+
+
+
+// arr=[1,2,3,4]
+// arr1=[10.0,true,"hello",[100,200]]
+// console.log(arr.concat(arr1));
+
+
+
+
+// let arr=["hello","bye",1,2]
+// console.log(arr.reverse());
+// console.log(arr);
+
+
+
+
+
+
+
+
+// let arr="hello"
+// console.log(arr.split());
+
+
+
+// let arr1=["hello"]
+// console.log(arr1.join());
+
+
+
+
+
+
+
+// let a=["hello","hi"]
+// console.log(a.join());
+// console.log(a.join(""));
+// // console.log(a.join(z));
+// console.log(a.join("z"));
+// console.log(a.join("-"));
+
+
+
+
+
+// let b=['h','e','l','l','o']
+// console.log(b.join());
+
+
+
+
+
+
+
+
+// let arr=[1,2,3,4,5,6,7,8,9,10]
+// console.log(arr.slice(2,8));
+// console.log(arr.slice(1,-1));
+// console.log(arr.slice(-10));
+// console.log(arr);
+
+
+
+
+// let arr=[1,2,3,4,5,6,7,8,9,10]
+// // arr.spl \ice(2,2)
+// console.log(arr);
+
+// console.log(arr.splice(2,2));
+
+
+
+
+// let arr1=[1,2,3,4,5,6,7,8,9,10]
+// arr1.splice(3,3,"hello")
+// console.log(arr1);
+
+
+
+
+
+// let a=[1,2,3,5]
+// a.splice(3,0,4)
+// console.log(a);
+
+
+
+
+// let arr=[4,3,2,1]
+// arr.sort()
+// console.log(arr);
+
+
+
+
+
+
+
+
+
+// a="hello"
+// b=""
+// c=a.length
+// for(let i=c;i>=0;i--){
+//     b=b+a.charAt(i)
+// }
+// console.log(b);
+
+
+
+
+// let reverse = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     console.log(b);
+    
+
+// }
+// reverse()
+
+
+
+// let palindrome=(n)=>{
+//     let a= n
+//     let b=""
+//     let c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     if(a==b){
+//         console.log("Palindrome");
+        
+//     }
+//     else{
+//         console.log("Not Palindrome");
+        
+//     }
+    
+
+// }
+// palindrome("racecar")
+
+
+
+// let reverse=(n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     console.log(b);
+    
+// }
+// reverse("hello")
+
+
+
+
+
+// let inbuild = (n)=>{
+//     let str=n
+//     let arr=str.split("")
+//     let rev=arr.reverse()
+//     let revstr=rev.join("")
+//     console.log(revstr);
+    
+
+
+// }
+// inbuild("hello")
+
+
+
+
+
+// let prime = (n)=>{
+//     count=0
+//     for(i=2;i<=n;i++){
+//         if(n%i==0){
+//             count=count+1
+//         }
+//     }
+//     if(count==1){
+//         console.log("prime");
+        
+//     }
+//     else{
+//         console.log("not prime");
+        
+//     }
+
+// }
+// prime(232)
+
+
+
+
+// let prime =(n)=>{
+//     for(i=1;i<=n;i++){
+//         res=true
+//         for(j=2;j<i;j++){
+//             if(i%j==0){
+//                 res=false
+//                 break
+//             }
+//         }
+//         if(res==true){
+//             console.log(i);
+            
+//         }
+//     }
+// }
+// prime(20)
+
+
+
+
+
+
+// let arr1=[2,9,12,18]
+// let arr2=[3,5,11,20]
+// let arr3=[]
+// let a=arr1.length
+// let b=arr2.length
+// let i=0
+// let j=0
+// while(i<a && j<b){
+//     if(arr1[i]<arr2[j]){
+//         arr3.push(arr1[i])
+//         i++
+//     }
+//     else{
+//         arr3.push(arr2[j])
+//         j++
+//     }
+    
+    
+// }
+// console.log(arr3);
+
+
+
+
+
+
+
+
+// let arr1=[2,9,12,18]
+// let arr2=[3,5,11,20]
+// let arr3=[]
+// let a=arr1.length
+// let b=arr2.length
+// let i=0
+// let j=0
+// while(i<a && j<b){
+//     if(arr1[i]<arr2[j]){
+//         arr3.push(arr1[i])
+//         i++
+//     }
+//     else{
+//         arr3.push(arr2[j])
+//         j++
+//     }
+// }
+// console.log(arr3);
 
 
 
@@ -615,11 +965,48 @@ if(count==1){
 
 
 
+// let arr1=[2,9,12,18]
+// let arr2=[3,5,11,20]
+
+// let arr3=[]
+// let a=arr1.length
+// let b=arr2.length
+// let i=0
+// let j=0
+// while(i<a && j<b){
+//     if(arr1[i]<arr2[j]){
+//         arr3.push(arr1[i])
+//         i++
+//     }
+//     else{
+//         arr3.push(arr2[j])
+//         j++
+//     }
+// }
+// console.log(arr3);
 
 
 
 
 
+
+
+
+// let remove=(n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for(i=0;i<=c;i++){
+//         if(!b.includes(a.charAt(i))){
+//             b=b+a.charAt(i)
+//         }
+
+//     }
+//     console.log(b);
+    
+// }
+
+// remove("madam")
 
 
 

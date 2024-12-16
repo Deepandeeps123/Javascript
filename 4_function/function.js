@@ -479,17 +479,88 @@ two(10,"ten",one);
 
 
 
-let arr1=[2,9,12,18]
-let arr2=[3,5,11,20]
+// let arr1=[2,9,12,18]
+// let arr2=[3,5,11,20]
 // let arr3=arr1.concat(arr2)
 // console.log(arr3);
 //let arr3=[...arr1,...arr2]
 // console.log(arr3);
 
-let arr=arr1.length
-let arr0=arr2.length
-let i=0
-let j=0
+// let arr=arr1.length
+// let arr0=arr2.length
+// let i=0
+// let j=0
+
+
+
+
+
+
+// let --global scope ,var--local scope
+
+
+// let scope = ()=>{
+//     let a=20
+//     var b=30
+//     const c=40
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+    
+// }
+// console.log(a);
+
+
+
+
+
+// ! error
+
+// console.log(num);------Error
+
+
+
+
+
+
+// num=20
+// console.log(num);     20
+
+
+
+// let num
+// num=20
+// console.log(num);
+
+
+
+// console.log(num);
+// let num
+// num=20
+// console.log(num);
+
+
+
+
+
+
+
+var a
+console.log(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

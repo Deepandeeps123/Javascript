@@ -379,21 +379,21 @@
 
 
 
-n=5
-count=0
-for(let i=1;n>0;i++){
-    if(n%i==0){
-        count=count+1
-    }
-if(count==2){
-    console.log("prime");
+// n=5
+// count=0
+// for(let i=1;n>0;i++){
+//     if(n%i==0){
+//         count=count+1
+//     }
+// if(count==2){
+//     console.log("prime");
     
-}
-else{
-    console.log("Not");
+// }
+// else{
+//     console.log("Not");
     
-}
-}
+// }
+// }
 
 
 
