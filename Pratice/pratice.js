@@ -948,51 +948,232 @@
 //     if(arr1[i]<arr2[j]){
 //         arr3.push(arr1[i])
 //         i++
+// //     }
+// //     else{
+// //         arr3.push(arr2[j])
+// //         j++
+// //     }
+// // }
+// // console.log(arr3);
+
+
+
+
+
+
+
+
+
+
+// // let arr1=[2,9,12,18]
+// // let arr2=[3,5,11,20]
+
+// // let arr3=[]
+// // let a=arr1.length
+// // let b=arr2.length
+// // let i=0
+// // let j=0
+// // while(i<a && j<b){
+// //     if(arr1[i]<arr2[j]){
+// //         arr3.push(arr1[i])
+// //         i++
+// //     }
+// //     else{
+// //         arr3.push(arr2[j])
+// //         j++
+// //     }
+// // }
+// // console.log(arr3);
+
+
+
+
+
+
+
+
+// // let remove=(n)=>{
+// //     a=n
+// //     b=""
+// //     c=a.length
+// //     for(i=0;i<=c;i++){
+// //         if(!b.includes(a.charAt(i))){
+// //             b=b+a.charAt(i)
+// //         }
+
+// //     }
+// //     console.log(b);
+    
+// // }
+
+// // remove("madam")
+
+
+
+
+
+
+// let arr=[10,20,30,40,50,60]
+
+
+// // // higher order array methods
+
+
+// //1)forEach()
+//  arr.forEach((ele,indx,arr1)=>{
+//     console.log(ele,indx,arr1);
+    
+//  })
+
+
+
+// let arr3=[10,20,30,40,50,60]
+
+// let arr2=[]
+// arr.forEach((a)=>
+// {
+//     if(a >30){
+//         arr2.push(a)
+        
+        
+//     }
+// })
+// console.log(arr2);
+
+
+// // add 100 with all the elements and give the array 
+
+// let arr4=[10,20,30,40,50,60]
+// let ans=[]
+// arr.forEach((a)=>{
+    
+//     ans.push(a+100)
+    
+
+// })
+// console.log(ans);
+
+// //add the elements of the array 
+
+// let arr5=[10,20,30,40,50,60]
+// let add=0
+// arr.forEach((a)=>{
+//     add=add+a
+    
+    
+    
+
+// })
+// console.log(add);
+
+
+
+// //for each method cannot return anything
+// //undefined variable declared not initialized
+
+// //2.filter method 
+// // it will also take 3 parameter (element,index,array)
+// // it will return array
+// // what we write in if() confition condition we can write in filter method
+// let arr6=[10,20,30,40,50,60]
+// let filerarray=arr.filter((ele)=>{
+//     return ele>30
+
+// })
+// console.log(filerarray);
+
+
+// //anotherway of writting filer statement in one line 
+// // no need of {} and return keyword here
+
+// let filerarray2=arr.filter((ele)=> ele>30)
+// console.log(filerarray2);
+
+// //3)map() method 
+// // it will work on arithemtic operation
+// //it will return arr
+// //it can also take 3 parameters
+
+
+// let arr7=[10,20,30,40,50,60]
+// arr.map((ele)=>{
+//     return ele+100
+// })
+
+
+// //anotherway of writting filer statement in one line
+// // no need of {} and return keyword here
+// let maparr=arr.map((a)=> a+100) 
+// console.log(maparr);
+
+
+// //4) reduce
+// // //it will also take 4 parameter (accumulator,eleemnt,index,array)
+// //it will give AddedElementsInArray
+// // let reducearr=arr.reduce((acc,ele)=>{ 
+// //     return acc+ele
+
+// // },here we give accumulator value)
+
+
+
+
+
+// arr8=[10,20,30,40,50,60]
+
+// let reducearr=arr.reduce((acc,ele)=>{ 
+//     return acc+ele
+
+// },0)
+// console.log(reducearr);
+
+// //5)sort
+// let unsort=[4,1,7,2,9,3]
+// let asc=unsort.sort((a,b) =>a-b)
+// console.log(asc);
+
+
+// let desc=unsort.sort((a,b) => b-a)
+// console.log(desc);
+
+
+
+
+
+
+
+
+
+// palindrome
+
+
+// let palindrome = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for (let i=c;i<=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     if(b==n){
+//         console.log("Palindrome");
+        
 //     }
 //     else{
-//         arr3.push(arr2[j])
-//         j++
+//         console.log("Not");
+        
 //     }
+    
+
 // }
-// console.log(arr3);
+// palindrome("Racecar")
 
 
 
 
+// Remove  duplicates
 
 
-
-
-
-
-// let arr1=[2,9,12,18]
-// let arr2=[3,5,11,20]
-
-// let arr3=[]
-// let a=arr1.length
-// let b=arr2.length
-// let i=0
-// let j=0
-// while(i<a && j<b){
-//     if(arr1[i]<arr2[j]){
-//         arr3.push(arr1[i])
-//         i++
-//     }
-//     else{
-//         arr3.push(arr2[j])
-//         j++
-//     }
-// }
-// console.log(arr3);
-
-
-
-
-
-
-
-
-// let remove=(n)=>{
+// let remove = (n)=>{
 //     a=n
 //     b=""
 //     c=a.length
@@ -1000,18 +1181,74 @@
 //         if(!b.includes(a.charAt(i))){
 //             b=b+a.charAt(i)
 //         }
-
 //     }
 //     console.log(b);
     
 // }
-
-// remove("madam")
-
+// remove("hello")
 
 
 
 
 
+// let prime=(n)=>{
+//     count=0
+//     for(let i=2;i<=n;i++){
+//         if(n%i==0){
+//             count=count+1
+//         }
+//     }
+//     if(count==1){
+//         console.log("prime");
+        
+//     }
+//     else{
+//         console.log("Not");
+        
+//     }
+
+// }
+// prime(28)
 
 
+
+
+// range prime number
+
+
+// let prime=(n)=>{
+//     for (let i=2;i<=n;i++){
+//         res=true
+//         for(let j=2;j<i;j++){
+//             if(i%j==0){
+//                 res=false
+//                 break
+//             }
+
+//         }
+//         if(res==true){
+//             console.log(i);
+            
+//         }
+
+        
+//     }
+// }
+
+// prime(30)
+
+
+
+
+let reverse = (n)=>{
+    a=n
+    b=""
+    c=a.length
+    for(let i=c;i>=0;i--){
+        b=b+a.charAt(i)
+    }
+    console.log(b);
+    
+
+}
+reverse("madam")
