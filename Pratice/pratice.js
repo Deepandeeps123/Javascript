@@ -1240,15 +1240,345 @@
 
 
 
-let reverse = (n)=>{
-    a=n
-    b=""
-    c=a.length
-    for(let i=c;i>=0;i--){
-        b=b+a.charAt(i)
-    }
-    console.log(b);
+// let reverse = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for(let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     console.log(b);
     
 
+// }
+// reverse("madam")
+
+
+
+
+
+// ! Object
+
+
+
+// let ob={
+//     name:"Dinga",
+//     age:20,
+//     skill:["Sql","python","web"],
+//     do:()=>{
+//         console.log("i am Object Method");
+        
+
+//     }
+// }
+
+
+// console.log(ob["name"]);
+// console.log(ob["age"]);
+// console.log(ob["skill"]);
+
+
+// console.log(name);
+// console.log(ob.name);
+// console.log(ob.age);
+// console.log(ob.skill);
+// console.log(ob.skill[0]);
+// console.log(ob.skill[1]);
+// console.log(ob.skill[2]);
+
+
+// console.log(ob.do);
+// ob.do()
+
+
+
+
+
+// ! modify
+
+
+
+// ob.name="DINGA"
+// console.log(ob.name);
+// console.log(ob);
+
+
+// console.log(ob.name="dinga");
+
+
+
+
+// ob.age=100
+// console.log(ob.age);
+// console.log(ob);
+
+
+
+// console.log(ob.age=200);
+// console.log(ob);
+
+
+
+
+
+
+
+
+// ! how to add new property
+
+
+
+
+// ob.branch="Qspider"
+// console.log(ob.branch);
+// console.log(ob);
+
+
+
+// console.log(ob.course="developer");
+// console.log(ob);
+
+
+// // ob.course="developer"
+// // console.log(ob.course);
+// // console.log(ob);
+
+
+
+// console.log(ob.skill);
+
+// ob.skill.push("Django")
+// console.log(ob.skill);
+
+
+
+// ! how to delete
+
+// console.log(ob);
+
+
+// delete ob.course
+// console.log(ob.course);
+
+
+
+
+
+// ! mwthods
+
+// ! 1. Object.keys()
+
+
+// let ob={
+//     name:"Dinga",
+//     age:20,
+//     skill:["Sql","python","web"],
+//     do:()=>{
+//         console.log("i am Object Method");
+        
+
+//     }
+// }
+
+
+// let keys = Object.keys(ob)
+// console.log(keys);
+
+
+
+// console.log(Object.keys(ob));
+
+
+
+
+
+
+
+
+let student = {
+    sname:"Dinga",
+    age:20,
+    skill:["Sql","python","Javascript"],
+    loc:"chennai",
+    pin:600026
 }
-reverse("madam")
+
+
+
+
+// console.log(student);
+
+
+
+
+
+
+// let keys = Object.keys(student)
+// console.log(keys);
+
+
+
+// console.log(Object.keys(student));
+
+
+
+
+// ! 2.Object.values
+
+
+// let values = Object.values(student)
+// console.log(values);
+
+
+// console.log(Object.values(student));
+
+
+
+// ! 3.Object.entries
+
+
+
+// let entries = Object.entries(student)
+// console.log(entries);
+
+
+
+
+// console.log(Object.entries(student));
+
+
+
+
+// Object.freeze(student)
+
+
+
+// student.phno=1234567890
+
+// student.age=20
+
+// delete student.age
+
+
+
+// console.log(student
+
+// );
+
+
+
+
+
+// !Object.seal()
+
+
+
+// console.log(student);
+
+// Object.seal(student)
+
+
+// student.age=100
+
+// student.course="developer"
+
+// delete student.age
+
+// console.log(student);
+
+
+
+
+
+// ! Object.assign()
+
+
+
+let ob1={
+    name:"Dinga",
+    age:20
+}
+
+
+
+let ob2={
+    city:"chennai",
+    pin:600026
+}
+
+
+
+
+console.log(Object.assign(ob1,ob2));
+console.log(ob1);
+console.log(ob2);
+
+
+
+
+
+console.log(ob1.hasOwnProperty("named"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
