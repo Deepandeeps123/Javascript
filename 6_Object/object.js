@@ -342,6 +342,30 @@ console.log(ob2.hasOwnProperty("pincode"));
 
 
 
+let arr=[10,20,30,40,50]
+// arr.map((ele)=>{
+//     console.log(ele);
+    
+
+// })
+
+
+// arr.forEach((ele)=>{
+//     console.log(ele);
+    
+// })
+
+
+let b=arr.length
+for (i=0;i<b;i++){
+    console.log(arr[i]);
+    
+}
+
+
+
+
+
 
 
 

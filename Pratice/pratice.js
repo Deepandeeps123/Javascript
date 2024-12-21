@@ -1395,13 +1395,13 @@
 
 
 
-let student = {
-    sname:"Dinga",
-    age:20,
-    skill:["Sql","python","Javascript"],
-    loc:"chennai",
-    pin:600026
-}
+// let student = {
+//     sname:"Dinga",
+//     age:20,
+//     skill:["Sql","python","Javascript"],
+//     loc:"chennai",
+//     pin:600026
+// }
 
 
 
@@ -1494,30 +1494,559 @@ let student = {
 
 
 
-let ob1={
-    name:"Dinga",
-    age:20
-}
+// let ob1={
+//     name:"Dinga",
+//     age:20
+// }
 
 
 
-let ob2={
-    city:"chennai",
-    pin:600026
-}
-
-
-
-
-console.log(Object.assign(ob1,ob2));
-console.log(ob1);
-console.log(ob2);
+// let ob2={
+//     city:"chennai",
+//     pin:600026
+// }
 
 
 
 
+// console.log(Object.assign(ob1,ob2));
+// console.log(ob1);
+// console.log(ob2);
 
-console.log(ob1.hasOwnProperty("named"));
+
+
+
+
+// console.log(ob1.hasOwnProperty("named"));
+
+
+
+
+
+
+
+
+
+// let arr=[10,20,30,40,50]
+// let a=arr.length
+// for (let i=0;i<a;i++){
+//     console.log(arr[i]);
+    
+
+// }
+
+
+
+// arr.forEach((ele)=>{
+//     console.log(ele);
+    
+// })
+
+
+// arr.map((stu)=>{
+//     console.log(stu);
+    
+// })
+
+
+
+
+// let i=0
+// while (i<5){
+//     console.log(i);
+//     i++;
+    
+// }
+
+
+
+// let i=0
+// do {
+//     console.log(i);
+//     i++;
+    
+// } while(i<5);
+
+
+
+
+
+
+
+
+let student = [
+    {
+        sname:"Deepan",
+        age:20,
+        skills:["python","html","js"],
+        address:{
+            city:"cuddalore",
+            pin:600108
+        }
+    
+    },
+
+    {
+        sname:"Dinesh",
+        age:22,
+        skills:["java","html","js"],
+        address:{
+            city:"ramanad",
+            pin:600300
+        }
+    },
+
+    {
+        sname:"Manoj",
+        age:21,
+        skills:["java","sql"],
+        affress:{
+            city:"ramanad",
+            pin:600300
+        }
+    }
+]
+
+
+
+
+// console.log(student);
+// console.log(student[0]);
+// console.log(student[1]);
+// console.log(student[2]);
+
+
+// console.log(student.sname);
+
+// console.log(student[0].sname);
+// console.log(student[1].sname);
+// console.log(student[2].sname);
+
+
+
+
+// student.forEach((ele)=>{
+//     console.log(ele);
+    
+// })
+
+
+// student.map((stu)=>{
+//     console.log(stu.sname);
+    
+// })
+
+
+
+
+
+// console.log(student[0].age);
+// console.log(student[1].age);
+// console.log(student[2].age);
+
+
+
+// student.map((ele)=>{
+//     console.log(ele.age);
+    
+// })
+
+
+
+
+
+// console.log(student[0].skills[0]);
+// console.log(student[1].skills[1]);
+// console.log(student[2].skills[1]);
+
+
+
+
+
+// student.map((ele)=>{
+//     console.log(ele.skills[0]);
+    
+// })
+
+
+
+// student.map((ele)=>{
+//     console.log(ele.skills[1]);
+    
+// })
+
+
+// student.map((ele)=>{
+//     console.log(ele.skills[2]);
+    
+// })
+
+
+
+
+// let arr=[10,20,30,40,50]
+// arr.forEach((ele,indx)=>{
+//     console.log(ele,indx);
+    
+// })
+// let arr=[10,20,30,40,50]
+// arr.map((ele,indx)=>{
+//     console.log(ele,indx);
+    
+// })
+
+
+
+
+// let arr1=[10,20,30,40,50]
+// for (let i in arr){
+//     console.log(i);
+    
+// }
+
+
+
+
+
+
+
+
+// let arr=[10,20,30,40,50]
+// for (let i of arr){
+//     console.log(i);
+    
+// }
+
+
+
+
+
+
+
+// let ob = {
+//     name:"Dinga",
+//     age:22,
+//     skills:["Python","html","js"],
+//     city:"chennai",
+//     pin:600026
+// }
+
+
+// for (let i in ob){
+//     console.log(i);
+    
+// }
+
+
+
+// for (let i of ob){
+//     console.log(i);
+    
+// }
+
+
+
+// ob.forEach((ele,indx)=>{
+//     console.log(ele,indx);
+    
+// })
+// ob.map((ele,indx)=>{
+//     console.log(ele,indx);
+    
+// })
+
+
+
+
+
+// let str="hello"
+// for(let i in str){
+//     console.log(i);
+    
+// }
+
+
+
+
+// for(let i of str){
+//     console.log(i);
+    
+// }
+
+
+
+
+
+// str.forEach((ele)=>{
+//     console.log(ele);
+    
+// })
+// str.map((ele)=>{
+//     console.log(ele);
+    
+// })
+
+
+
+
+
+
+
+
+
+
+
+// let ob = {
+//     name:"Dinga",
+//     age:22,
+//     skills:["python","html","js",],
+//     address:{
+//         city:"chennai",
+//         pin:600026
+//     }
+
+// }
+
+
+// console.log(ob);
+
+
+
+
+
+// ! json
+
+
+
+// let jsonData=JSON.stringify(ob)
+// console.log(jsonData);
+
+
+
+// console.log(typeof(jsonData));
+
+
+
+
+
+// let ob2=JSON.parse(jsonData)
+// console.log(ob2);
+
+
+// console.log(typeof(ob2));
+
+
+
+
+// let ob = {
+//     name:"Dinga",
+//     age:22,
+//     skills:["python","html","js"],
+// }
+
+
+
+// console.log(ob);
+// console.log(ob.name);
+// console.log(ob.age);
+// console.log(ob.skills);
+
+
+
+
+
+
+// let {name,age,skills}=ob
+// console.log(name);
+// console.log(age);
+// console.log(skills);
+
+
+
+
+
+
+
+
+// let arr=[10,20,30]
+
+// // arr.forEach((a,b,c)=>{
+// //     console.log(a,b,c);
+    
+// // })
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+
+
+
+// let [first,second,third]=arr
+
+
+
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
+
+
+// (())  it is a callback function
+
+
+
+
+
+
+// !  sertimeout function
+
+
+
+// let a="hello"
+// console.log(a);
+
+
+
+// let hello = ()=>{
+//     console.log("hello");
+    
+
+// }
+
+// setTimeout(hello,2000)
+
+
+
+// setTimeout(()=>{
+//     console.log("I am setTimeout");
+    
+
+// },2000)
+
+
+
+
+
+// let hello1=(()=>{
+//     console.log("I am setInterval");
+    
+// })
+// setInterval(hello1,2000)
+
+
+
+
+
+// setInterval(()=>{
+//     console.log("I am setInterval 😁");
+    
+// },2000)
+
+
+
+// let arr=[10,20,30,40,50]
+// let hello1 = ((ele)=>{
+//     console.log(ele);
+    
+// })
+// arr.setInterval(hello1,2000)
+
+
+
+// clearTimeout
+
+
+
+// let hello = setTimeout(()=>{
+//     console.log("Timeout and clear Timeout");
+    
+// },2000)
+// clearTimeout(hello)
+
+
+
+
+
+
+
+// let a1=10
+// let b1=100
+
+// let a = new Promise((resolve,reject)=>{
+//     if(a1==b1){
+//         resolve("Coreect")
+//     }
+//     else{
+//         reject("Wrong")
+//         // console.log(a1,b1);
+        
+//     }
+
+// })
+// console.log(a);
+
+
+// a.then((data)=>{
+//     console.log("Fullfilled",a1==b1);
+    
+
+// })
+
+
+
+
+// a.catch((arr)=>{
+//     console.log("Rejected",a1===b1);
+    
+// })
+
+
+
+
+// a.finally(()=>{
+//     console.log("Output");
+    
+// })
+
+
+
+
+// fetch
+
+
+
+let fetchedData = fetch("https://fakestoreapi.com/products")
+console.log(fetchedData);
+
+
+    fetchedData.then((data)=>{
+        console.log(data);
+
+
+
+
+
+
+
+let jsonData= data.json()
+
+
+
+
+
+jsonData.then((fd)=>{
+    console.log(fd);
+    
+})
+jsonData.catch((arr)=>{
+    console.log(arr);
+    
+})
+jsonData.finally(()=>{
+    console.log("Output");
+    
+})
+    
+})
 
 
 
