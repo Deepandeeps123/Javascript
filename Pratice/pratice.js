@@ -1574,38 +1574,38 @@
 
 
 
-let student = [
-    {
-        sname:"Deepan",
-        age:20,
-        skills:["python","html","js"],
-        address:{
-            city:"cuddalore",
-            pin:600108
-        }
+// let student = [
+//     {
+//         sname:"Deepan",
+//         age:20,
+//         skills:["python","html","js"],
+//         address:{
+//             city:"cuddalore",
+//             pin:600108
+//         }
     
-    },
+//     },
 
-    {
-        sname:"Dinesh",
-        age:22,
-        skills:["java","html","js"],
-        address:{
-            city:"ramanad",
-            pin:600300
-        }
-    },
+//     {
+//         sname:"Dinesh",
+//         age:22,
+//         skills:["java","html","js"],
+//         address:{
+//             city:"ramanad",
+//             pin:600300
+//         }
+//     },
 
-    {
-        sname:"Manoj",
-        age:21,
-        skills:["java","sql"],
-        affress:{
-            city:"ramanad",
-            pin:600300
-        }
-    }
-]
+//     {
+//         sname:"Manoj",
+//         age:21,
+//         skills:["java","sql"],
+//         affress:{
+//             city:"ramanad",
+//             pin:600300
+//         }
+//     }
+// ]
 
 
 
@@ -2014,40 +2014,18 @@ let student = [
 
 
 
-let fetchedData = fetch("https://fakestoreapi.com/products")
-console.log(fetchedData);
-
-
-    fetchedData.then((data)=>{
-        console.log(data);
+// 
 
 
 
-
-
-
-
-let jsonData= data.json()
-
-
-
-
-
-jsonData.then((fd)=>{
-    console.log(fd);
+arr=[1,4,45,6,10,8]
+target=13
+a=arr.length
+b=0
+for(let i=arr[b];i>0;b++){
+    console.log(i);
     
-})
-jsonData.catch((arr)=>{
-    console.log(arr);
-    
-})
-jsonData.finally(()=>{
-    console.log("Output");
-    
-})
-    
-})
-
+}
 
 
 
