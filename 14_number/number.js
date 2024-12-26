@@ -88,6 +88,15 @@ console.log(num666);
 
 
 
+// bom
+// window
+// dom
+// document
+
+// html code
+
+
+
 
 
 

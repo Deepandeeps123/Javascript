@@ -2016,16 +2016,869 @@
 
 // 
 
-
-
-arr=[1,4,45,6,10,8]
-target=13
-a=arr.length
-b=0
-for(let i=arr[b];i>0;b++){
-    console.log(i);
+// let fetchedData= fetch("https://fakestoreapi.com/products")
+// fetchedData.then((data)=>{
+//     console.log(data);
+//     console.log(typeof(data));
     
+// let jsonData = data.json()
+// jsonData.then((fd)=>{
+//     console.log(fd);
+//     console.log(typeof(fd));
+    
+    
+// })
+// jsonData.catch((aa)=>{
+//     console.log(aa);
+    
+// })
+// jsonData.finally(()=>{
+//     console.log("Output");
+    
+// })
+    
+// })
+// fetchedData.catch(()=>{
+//     console.log("Wrong");
+    
+// })
+// fetchedData.finally(()=>{
+//     console.log("Output");
+
+    
+// })
+// fetchedData.then((data)=>{
+//     console.log(fetchedData);
+// fetchedData.catch((data)=>{
+//     console.log(fetchedData);
+// fetchedData.finally(()=>{
+//     console.log("Output");
+    
+// })
+    
+// })
+    
+// })
+
+
+
+
+
+// let jsonData = fetch("https://fakestoreapi.com/products")
+// jsonData.then((data)=>{
+//     console.log(data);
+// let jsonData=data.json()
+// jsonData.then((fd)=>{
+//     console.log(fd);
+    
+// })
+    
+// })
+
+
+
+// let getData =async ()=>{
+//     let fetchedData=await fetch("https://fakestoreapi.com/products")
+//     console.log(fetchedData);
+//     let jsonData =await fetchedData.json()
+//     console.log(jsonData);
+    
+    
+
+// }
+// getData()
+
+
+// let getData =async ()=>{
+//     {
+//         try{
+//             var fetchedData = await fetch("https://fakestoreapi.com/products")
+//             console.log(fetchedData);
+//             let jsonData=await fetchedData.json()
+//             console.log(jsonData);
+    
+//             jsonData.forEach((ele)=>{
+//                 console.log(ele.title);
+                
+//             })
+//             jsonData.map((ele)=>{
+//                 console.log(ele.price);
+                
+//             })
+//         }
+//         catch{
+//             console.log("error");
+            
+//         }
+//     }
+    
+    
+// }
+// getData()
+
+// !
+
+
+// let getData = async ()=>{
+//     {
+//         try{
+//             let fetchedData = await fetch("https://fakestoreapi.com/products")
+//             console.log(fetchedData);
+//             let jsonData=await fetchedData.json()
+//             console.log(jsonData);
+//             jsonData.forEach((ele)=>{
+//                 console.log(ele.title);
+                
+//             })
+                                                                                                                                                                                                                                                         
+            
+//         }
+//         catch{
+//             console.log("Error");
+            
+//         }
+//     }
+
+// }
+// getData()
+
+
+
+// let num1=10
+// console.log(typeof(num1),num1);
+// console.log(num1,typeof(num1));
+
+
+
+// let num2=10.10
+// console.log(typeof(num2),num2);
+// console.log(typeof num2,num2);
+
+
+
+// let num3=Number(10)
+// console.log(typeof(num3),num3);
+
+
+
+// let num4=Number("10")
+// console.log(typeof(num4),num4);
+
+// let num44 = Number("abc")
+// console.log(typeof(num44),num44);
+// let num444 = "abc"
+// console.log(typeof(num444),num444);
+
+
+
+// let num5=Number("10abc")
+// console.log(typeof(num5),num5);
+
+
+
+
+
+// let a = prompt("enter first number")
+// let b = prompt("enter the second number")
+// alert(a+b)
+
+
+
+
+// let a = Number(prompt("Enter first number"))
+// let b = Number(prompt("Enter second number"))
+// alert(a+b)
+
+
+
+
+// ! Number Method
+
+
+// ! parseInt()
+
+
+
+// let num=parseInt("10abc")
+// console.log(num);
+
+
+// let num2=parseInt("a10bc")
+// console.log(num2);
+
+
+// let num3=parseInt("abc10")
+// console.log(num3);
+
+// 10
+// pratice.js:2207 NaN
+// pratice.js:2211 NaN
+
+
+
+
+
+// ! 2.parsefloat
+
+
+// let num1=parseFloat(10.10)
+// console.log(num1);
+
+
+// let num2=parseFloat("10.10abc")
+// console.log(num2);
+
+
+// let num3=parseFloat("abc10")
+// console.log(num3);
+
+
+
+
+// let num2=parseFloat(10)
+// console.log(num2);
+
+
+// let num=parseInt("102",2)
+// console.log(num);
+
+
+
+
+
+// ! 3.isfinite
+
+
+
+// let num=Number.isFinite(14)
+// console.log(num);
+// let num1=Number.isFinite("123")
+// console.log(num1);
+// let num2=Number.isFinite("abc")
+// console.log(num2);
+// let num3=Number.isFinite("123abc")
+// console.log(num3);
+// // let num4=isFinite(123)
+// // console.log(num4);
+
+
+
+
+// let num=Number.isNaN("NaN")
+// console.log(num);
+
+// let num1=Number.isNaN("abc")
+// console.log(num1);
+
+
+// let num2=Number.isNaN(10)
+// console.log(num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let big = 123456789012345678901234567890n; // Add 'n' for BigInt
+// console.log(big + 9n);
+
+
+
+
+
+
+
+
+
+
+
+// let getData  =async ()=>{
+//     let fetchedData =await fetch("https://fakestoreapi.com/products")
+//     console.log(fetchedData);
+//     let jsonData =await fetchedData.json()
+//     console.log(jsonData);
+    
+
+    
+// }
+
+// getData()
+
+
+
+
+// ! palindrome
+
+
+// let palindrome = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for (let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     console.log(b);
+    
+// }
+// palindrome("madam")
+
+
+
+
+
+// let palindrome = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for (let i=c;i>=0;i--){
+//         b=b+a.charAt(i)
+//     }
+//     if(a==b){
+//         console.log("Palindrome");
+        
+//     }
+//     else{
+//         console.log("Not Palindrome");
+        
+//     }
+
+// }
+// palindrome("Madam")
+
+
+
+
+// ! 2.duplicate
+
+
+// let duplicate = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for (let i=0;i<=c;i++){
+//         if (!b.includes(a.charAt(i))){
+//             b=b+a.charAt(i)
+
+//         }
+    
+        
+//     }
+//     console.log(b);
+// }
+// duplicate("madam")
+
+
+
+
+// let duplicate = (n)=>{
+//     a=n
+//     b=""
+//     c=a.length
+//     for (let i=0;i<=c;i++){
+//         if(!b.includes(a.charAt(i))){
+//             b=b+a.charAt(i)
+//         }
+//     }
+//     console.log(b);
+    
+// }
+// duplicate("Racecar")
+
+
+
+
+// ! 3.prime Number
+
+
+// let prime = (n)=>{
+//     count=0
+//     for (i=2;i<=n;i++){
+//         if(n%i==0){
+//             count=count+1
+//         }
+//     }
+//     if (count==1){
+//         console.log("Prime Number");
+        
+//     }
+//     else{
+//         console.log("Not a Prime Number");
+        
+//     }
+
+// }
+// prime(12)
+
+
+
+// ! 4.count of prime number
+
+
+// let prime = (n)=>{
+//     for (i=1;i<=n;i++){
+//         res=true
+//         for (j=2;j<i;j++){
+//             if(i%j==0){
+//                 res=false
+//                 break
+//             }
+            
+//         }
+//         if (res==true){
+//             console.log(i);
+//     }
+    
+        
+//     }
+// }
+// prime(20)
+
+
+
+
+
+
+// let prime = (n)=>{
+//     for (i=1;i<=n;i++){
+//         res=true
+//         for (j=2;j<i;j++){
+//             if (i%j==0){
+//                 res=false
+//                 break
+//             }
+//         }
+//         if (res==true){
+//             console.log(i);
+            
+//         }
+//     }
+// }
+// prime(20)
+
+
+
+// ! sorted
+
+
+// arr=[4,3,2,1]
+// a=arr.length
+// for (let i=0;i<=a;i++){
+
+// }
+
+
+
+
+
+// arr=[1,4,10,6,2]
+// target=10
+// a=arr.length
+
+// for (let i=0;i<=a;i++){
+//     for (let j=i+1;j<=a;j++){
+//         if (arr[i]+arr[j]==target){
+//             console.log([i,j]);
+            
+            
+            
+//         }
+        
+            
+//         }
+//     }
+
+
+
+
+// arr=[1,4,10,6,2,9]
+// target = 15
+// n=arr.length
+// for (let i=0;i<=n;i++){
+//     for ( let j=i+1;j<=n;j++){
+//         for (let k=j+1;k<=n;k++){
+//             if(arr[i]+arr[j]+arr[k]==target) {
+//                 console.log([i,j,k]);
+                
+//             }
+//         }    }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// arr=[1,4,45,6,10,8]
+// target=10
+// // a=arr.length
+// // b=0
+// // for(let i=arr[b];i>0;b++){
+// //     console.log(i);
+    
+// a=arr.length
+// b=0
+// for (let i=0;i<=a;i++){
+//     for (let j=i+1;j<a;j++){
+//         if (arr[i]+arr[j]==target){
+//             console.log("Yes")
+//             break
+//         }
+//         // else{
+//         //     console.log("NO");
+            
+//         // }
+//     }
+// }
+
+// i=0
+// j=a-1
+
+// while (i<j){
+//     if (arr[i]+arr[j]==target){
+//         console.log("Yes");
+        
+//     }
+// }
+
+
+
+// ! how to access any element
+
+// ! 1.target element by id
+
+
+// let heading = document.getElementById("h1")
+// console.log(heading);
+
+// console.log(document.getElementById("h1"));
+
+
+
+// let para = document.getElementById("p1")
+// console.log(para);
+
+
+// console.log(document.getElementById("p1"));
+
+
+
+// ! target element by the class
+
+
+// let cons = document.getElementsByClassName("container")
+// console.log(cons);
+// console.log(cons[0]);
+// console.log(cons[1]);
+
+
+
+
+// let cons1 = document.getElementsByClassName("container1")
+// console.log(cons1);
+
+
+// let cons2 = document.getElementsByClassName("container2")
+// console.log(cons2);
+
+
+
+// let a = Number(prompt("Enter"))
+// let b = Number(prompt("Enter"))
+// alert(a+b)
+
+
+
+
+
+// !3.target element by selector
+
+
+
+// let cons = document.querySelector("#h1")
+// console.log(cons);
+
+// let cons1 = document.querySelector("*")
+// console.log(cons1);
+
+
+// let cons2 = document.querySelector(".container1")
+// console.log(cons2);
+
+
+
+
+// ! 4.target element by tag name
+
+
+// let h1 = document.getElementsByTagName("h1")
+// console.log(h1);
+
+
+
+// let p=document.getElementsByTagName("p")
+// console.log(p);
+
+
+
+// let p = document.querySelectorAll("h2")
+// console.log(p);
+
+
+
+
+// ! how to know what is present inside that
+
+
+// let a =document.getElementsByClassName("container3")
+// console.log(a);
+// console.log(a[0]);
+
+
+// let a1 = document.querySelector(".container3")
+// console.log(a1);
+
+
+
+
+
+// ! how to print the inside value
+
+
+
+// let ul = document.querySelector("#ul")
+// console.log(ul);
+
+
+
+// let inner = ul.innerText
+// console.log(inner);
+
+
+
+// let element = ul.innerHTML
+// console.log(element);
+
+
+
+
+
+// how to edit in js
+
+// ul.innerText="Web Technology"
+// // console.log(ul);
+
+
+// ul.innerHTML="<p>Web Technology</p>"
+// // ul.innerHTML="<p>Heading<p>"
+// console.log(ul);
+
+
+
+
+
+
+// let edit = document.querySelector(".container3")
+// console.log(edit);
+// ul.innerText = edit.innerText
+
+
+// let div= document.querySelector(".container3")
+// // console.log(div);
+
+// ul.innerText=div.innerText
+
+
+
+// !3.how to apply css from js
+
+// let cons = document.querySelector(".container2")
+// console.log(cons);
+// console.log(cons.classList);
+
+// cons.style.backgroundColor="green"
+// let cons = document.querySelector(".tank1")
+// console.log(cons);
+// console.log(cons.classList);
+
+// cons.style.backgroundColor="green"
+// let cons = document.querySelector(".dark1")
+// console.log(cons);
+// console.log(cons.classList);
+
+// cons.style.backgroundColor="green"
+// cons.style.border="2px solid blue"
+// cons.style.borderRadius ="50%";
+
+// console.log(cons.classList);
+
+
+
+
+
+
+
+// ! 4.add class in html documnt
+
+
+
+
+// let cons = document.querySelector(".container2")
+// console.log(cons);
+// console.log(cons.classList);
+
+
+
+// cons.classList.add("hello")
+// console.log(cons);
+// console.log(cons.classList);
+
+
+
+
+// cons.classList.remove("hello")
+// console.log(cons);
+// console.log(cons.classList);
+
+
+
+
+
+
+// ! how to create element  in browser
+
+let heading = document.createElement("container1")
+heading.innerText = "This is heading in create element"
+// console.log(heading);
+
+
+// heading.style.color="blue"
+
+
+
+// heading.classList.add("container1")
+// console.log(heading);
+
+
+let container1=document.querySelector(".container1")
+container1.prepend(heading)
+
+// console.log(container1);
+
+
+// container1.prepend("heading1")
+
+
+
+// console.log(heading.classList);
+
+
+
+
+// ! create one div
+
+
+// let div =document.createElement("container2")
+// div.innerText="container1"
+// div.classList.add("container2")
+// console.log(div);
+
+
+// let cons=document.querySelector(".container2")
+// cons.innerHTML="<h1>This is div</h1>"
+// cons.append(div)
+
+
+
+
+
+// heading.classList.add("heading1")
+
+
+
+
+
+// ! importatant
+
+
+
+let getData = async ()=>{
+    let res = await fetch("https://fakestoreapi.com/products")
+    let data = await res.json()
+    data.map((ele)=>{
+
+
+        let items = document.createElement("container1")
+        items.innerText = ele.title;
+
+        let cons=document.querySelector("container1")
+        container1.append(items)
+        // items.append(container1)
+        // console.log(container1);
+        
+        
+        
+        // console.log(ele.title);
+        
+    })
+
 }
+
+getData()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
